@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/chrisallenlane/streamify-string.svg)](https://travis-ci.org/chrisallenlane/streamify-string)
+[![npm](https://img.shields.io/npm/v/streamify-string.svg)]()
+[![npm](https://img.shields.io/npm/dt/streamify-string.svg)]()
+
 streamify-string
 ================
 `streamify-string` accepts a `string` and returns a [Readable stream][] that

@@ -1,6 +1,6 @@
 {
   "name": "streamify-string",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "`streamify-string` accepts a `string` and returns a [readable stream][] that outputs the string.",
   "license": "MIT",
   "author": {
