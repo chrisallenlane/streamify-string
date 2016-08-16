@@ -24,7 +24,8 @@ test('Flowing mode: should emit `data` events', function(t) {
   Streamify(str)
     .pipe(split())
     .on('data', function(chunk) {
-      t.pass('`data` emitted. (' + ++counter + ')');
+      counter++;
+      t.pass('`data` emitted. (' + counter + ')');
   });
 });
 
