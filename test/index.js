@@ -85,8 +85,8 @@ test('Paused mode: should be readable', function(t) {
   t.plan(1);
 
   const streamified = Streamify(str);
-  streamified.once('readable', () => {
 
+  streamified.once('readable', function() {
     streamified.pause();
 
     var chunk;
@@ -98,4 +98,5 @@ test('Paused mode: should be readable', function(t) {
 
     t.equals(bytes.toString(), str);
   });
+
 });
